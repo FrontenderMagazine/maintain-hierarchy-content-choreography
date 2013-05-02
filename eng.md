@@ -18,7 +18,7 @@ columns is usually reduced from three or four down to one. The typical and
 easiest solution is to drop the columns one by one and stack them on top of each
 other.
 
-![][Diagram showing how columns drop in a typical 3 column responsive design]
+![Diagram][Diagram showing how columns drop in a typical 3 column responsive design]
 
 *The figure above shows three columns of content. The lines below the two right 
 columns indicate that each will drop below the main content as the screen’s 
@@ -39,7 +39,7 @@ All of the information in your sidebar column probably isn’t as important as a
 of the information in your main content column, but some of the sidebar content
 is likely more important than some of the main content.
 
-![][Two examples of single column responsive designs]
+![examples][Two examples of single column responsive designs]
 
 *The left side of the figure above shows a single column layout, where each 
 column drops in its entirety below the previous one. The right side shows 
@@ -233,7 +233,7 @@ Meta information such as my name and the publication date are in a column to the
 left, while the article’s title, main text, images, headings and so on are in a
 column to the right.
 
-![][Screenshot of post from Vanseo Design with two-column layout]
+![Screenshot][Screenshot of post from Vanseo Design with two-column layout]
 
 *My website when the browser is wide enough to accommodate two columns.*
 
@@ -247,7 +247,7 @@ information from the left column sits below the article’s title from the right
 column but above everything else in that right column. Both “columns” of content
 have actually been inside the same container all along.
 
-![][Screenshot of post from Vanseo Design with single column layout]
+![Screenshot2][Screenshot of post from Vanseo Design with single column layout]
 
 *My website as a single column on a narrower screen.*
 
@@ -262,7 +262,7 @@ subheading and image is also its own self-contained block of content. The same
 goes for anything else that might end up in a post, such as a block quote or 
 code block.
 
-![][Abstract diagram showing content on Vanseo Design with single and 2 column layout]
+![Diagram2][Abstract diagram showing content on Vanseo Design with single and 2 column layout]
 
 *A more abstract view of what’s going on.*
 
@@ -283,7 +283,7 @@ intermix content** from different columns into a single column.
 [The Next Web][20] mostly drops columns down as it rearranges from three columns 
 to one, but it does intermix elements at the top of the page.
 
-![][Screenshots of The Next Web]
+![Screenshot3][Screenshots of The Next Web]
 
 The image above shows the website displayed as two columns (on the left) and a
 single column (on the right). The blue outline shows the container around
@@ -307,7 +307,7 @@ the “Latest Headlines” section (in the green container) moves from the right
 column at the top to just below the main image and story links in the single 
 column.
 
-![][Screenshots of Time Magazine website]
+![Screenshot4][Screenshots of Time Magazine website]
 
 While not shown in the image above, the row of four images on the left follows
 the “Latest Headlines” in the single column. The remaining content in the right
@@ -325,7 +325,7 @@ is preferable.
 The navigation on [Enoch’s Fish & Chips][22]’ website integrates with the logo
 and company blurb when the layout is a single column:
 
-![][Screenshot of Enoch's Fish and Chips with single column]
+![Screenshot5][Screenshot of Enoch's Fish and Chips with single column]
 
 The navigation (and the tagline further down) moves to the right column when the
 browser is wide enough to accommodate multiple columns.
@@ -335,7 +335,7 @@ my own website; the logo, navigation, blurb and tagline are each a separate
 container. **To move them around, the website uses positioning** instead of
 floats, but otherwise, the principle is the same.
 
-![][Screenshot of Enoch's Fish and Chips at 2 columns]
+![Screenshot6][Screenshot of Enoch's Fish and Chips at 2 columns]
 
 ## Closing Thoughts
 
@@ -382,3 +382,13 @@ enables us to more easily rearrange the elements in different layouts.
 [20]: http://thenextweb.com/
 [21]: http://www.time.com/time/
 [22]: http://www.enochs.co.uk/
+
+[Diagram showing how columns drop in a typical 3 column responsive design]: img/dropping-columns.png?raw=true&amp;repo=maintain-hierarchy-content-choreography
+[Two examples of single column responsive designs]: img/single-columns.png?raw=true&amp;repo=maintain-hierarchy-content-choreography
+[Screenshot of post from Vanseo Design with two-column layout]: img/vanseo-design-2-col1.png?raw=true&amp;repo=maintain-hierarchy-content-choreography
+[Screenshot of post from Vanseo Design with single column layout]: img/vanseo-design-single-col1.png?raw=true&amp;repo=maintain-hierarchy-content-choreography
+[Abstract diagram showing content on Vanseo Design with single and 2 column layout]: img/vanseo-abstract-3.png?raw=true&amp;repo=maintain-hierarchy-content-choreography
+[Screenshots of The Next Web]: img/the-next-web.jpg?raw=true&amp;repo=maintain-hierarchy-content-choreography
+[Screenshots of Time Magazine website]: img/time.jpg?raw=true&amp;repo=maintain-hierarchy-content-choreography
+[Screenshot of Enoch's Fish and Chips with single column]: img/enochs-single-col.jpg?raw=true&amp;repo=maintain-hierarchy-content-choreography
+[Screenshot of Enoch's Fish and Chips at 2 columns]: img/enochs-2-col.jpg?raw=true&amp;repo=maintain-hierarchy-content-choreography
